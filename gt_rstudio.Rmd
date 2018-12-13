@@ -1,11 +1,16 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output: github_document
 ---
 
 https://gt.rstudio.com/
 
-```{r}
+完成第一个例子
+
+1. 增加 (sub)title 
+1. 日期、货币、数字表示
+
+```{r message=FALSE, warning=FALSE}
 library(gt)
 library(tidyverse)
 library(glue)
@@ -21,22 +26,28 @@ sp500 %>%
   dplyr::select(-adj_close) %>%
   dplyr::mutate(date = as.character(date)) %>%
   gt() %>%
+  # 是 DT 的改版
   tab_header(
     title = "S&P 500",
     subtitle = glue::glue("{start_date} to {end_date}")
   ) %>%
+  # subtitle 可以使用变量引用很好
   fmt_date(
     columns = vars(date),
-    date_style = 3
+    date_style = 1
   ) %>%
+  # date_style 见 Details
+  # 偏好1
   fmt_currency(
     columns = vars(open, high, low, close),
-    currency = "USD"
+    currency = "CNY"
   ) %>%
+  # 可以指定货币
   fmt_number(
     columns = vars(volume),
     scale_by = 1 / 1E9,
     pattern = "{x}B"
   )
+  # 1E9除以10的9次方，因此是billion
 ```
 
