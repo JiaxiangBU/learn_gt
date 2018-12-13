@@ -51,3 +51,6 @@ sp500 %>%
   # 1E9除以10的9次方，因此是billion
 ```
 
+有冗余 code 出现
+[GitHub Issue](https://github.com/rstudio/gt/issues/104)
+
