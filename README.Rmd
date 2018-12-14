@@ -17,6 +17,9 @@ knitr::opts_chunk$set(
 [GitHub Issue](https://github.com/rstudio/gt/issues/105)
 1. <input type="checkbox" id="checkbox1" class="styled">尝试做footnote
 
+### 2018-12-15 01:29:26
+
+1. 完成 case_study_gtcars 了解了 footnote 的处理方式
 
 ### 2018-12-15 00:26:13
 
