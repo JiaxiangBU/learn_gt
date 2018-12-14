@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+```{r}
+library(tidyverse)
+library(gt)
+```
+
+```{r}
+# Get a subset of 8 cars from the `gtcars` dataset: two
+# from each manufacturer country of origin except the UK
+gtcars_8 <-
+  gtcars %>%
+  dplyr::group_by(ctry_origin) %>%
+  dplyr::top_n(2) %>%
+  dplyr::ungroup() %>%
+  dplyr::filter(ctry_origin != "United Kingdom")
+```
+
+
+```{r}
+# Use `group_by()` on `gtcars` and pass that to `gt()`
+gtcars_8 %>%
+  dplyr::group_by(ctry_origin) %>%
+  gt()
+# 可以查看 group by 的效果
+```
+

@@ -56,7 +56,7 @@ sp500 %>%
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#mwsewceimh .gt_table {
+#gqgovpiejj .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -75,13 +75,13 @@ sp500 %>%
   /* table.border.top.color */
 }
 
-#mwsewceimh .gt_heading {
+#gqgovpiejj .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#mwsewceimh .gt_title {
+#gqgovpiejj .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -92,7 +92,7 @@ sp500 %>%
   border-bottom-width: 0;
 }
 
-#mwsewceimh .gt_subtitle {
+#gqgovpiejj .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -103,7 +103,7 @@ sp500 %>%
   border-top-width: 0;
 }
 
-#mwsewceimh .gt_bottom_border {
+#gqgovpiejj .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -112,7 +112,7 @@ sp500 %>%
   /* heading.border.bottom.color */
 }
 
-#mwsewceimh .gt_column_spanner {
+#gqgovpiejj .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -120,7 +120,7 @@ sp500 %>%
   padding-bottom: 4px;
 }
 
-#mwsewceimh .gt_col_heading {
+#gqgovpiejj .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -133,11 +133,11 @@ sp500 %>%
   margin: 10px;
 }
 
-#mwsewceimh .gt_sep_right {
+#gqgovpiejj .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#mwsewceimh .gt_group_heading {
+#gqgovpiejj .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -161,7 +161,7 @@ sp500 %>%
   vertical-align: middle;
 }
 
-#mwsewceimh .gt_empty_group_heading {
+#gqgovpiejj .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -185,29 +185,29 @@ sp500 %>%
   vertical-align: middle;
 }
 
-#mwsewceimh .gt_striped tr:nth-child(even) {
+#gqgovpiejj .gt_striped tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-#mwsewceimh .gt_row {
+#gqgovpiejj .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#mwsewceimh .gt_stub {
+#gqgovpiejj .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#mwsewceimh .gt_stub.gt_row {
+#gqgovpiejj .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#mwsewceimh .gt_summary_row {
+#gqgovpiejj .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -216,13 +216,13 @@ sp500 %>%
   /* summary_row.text_transform */
 }
 
-#mwsewceimh .gt_first_summary_row {
+#gqgovpiejj .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#mwsewceimh .gt_table_body {
+#gqgovpiejj .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -237,56 +237,56 @@ sp500 %>%
   /* field.border.bottom.color */
 }
 
-#mwsewceimh .gt_footnote {
+#gqgovpiejj .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#mwsewceimh .gt_sourcenote {
+#gqgovpiejj .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#mwsewceimh .gt_center {
+#gqgovpiejj .gt_center {
   text-align: center;
 }
 
-#mwsewceimh .gt_left {
+#gqgovpiejj .gt_left {
   text-align: left;
 }
 
-#mwsewceimh .gt_right {
+#gqgovpiejj .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#mwsewceimh .gt_font_normal {
+#gqgovpiejj .gt_font_normal {
   font-weight: normal;
 }
 
-#mwsewceimh .gt_font_bold {
+#gqgovpiejj .gt_font_bold {
   font-weight: bold;
 }
 
-#mwsewceimh .gt_font_italic {
+#gqgovpiejj .gt_font_italic {
   font-style: italic;
 }
 
-#mwsewceimh .gt_super {
+#gqgovpiejj .gt_super {
   font-size: 65%;
 }
 
-#mwsewceimh .gt_footnote_glyph {
+#gqgovpiejj .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="mwsewceimh" style="overflow-x:auto;">
+<div id="gqgovpiejj" style="overflow-x:auto;">
 
 <!--gt table start-->
 
@@ -612,3 +612,5 @@ volume
 ``` r
   # 1E9除以10的9次方，因此是billion
 ```
+
+有冗余 code 出现 [GitHub Issue](https://github.com/rstudio/gt/issues/104)

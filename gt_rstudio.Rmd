@@ -1,5 +1,4 @@
 ---
-title: "R Notebook"
 output: github_document
 ---
 
@@ -53,4 +52,3 @@ sp500 %>%
 
 有冗余 code 出现
 [GitHub Issue](https://github.com/rstudio/gt/issues/104)
-

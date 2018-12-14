@@ -11,6 +11,17 @@ knitr::opts_chunk$set(
 )
 ```
 
+### To-do
+
+1. <input type="checkbox" id="checkbox1" class="styled">找cheatsheet
+[GitHub Issue](https://github.com/rstudio/gt/issues/105)
+1. <input type="checkbox" id="checkbox1" class="styled">尝试做footnote
+
+
+### 2018-12-15 00:26:13
+
+1. 增加 case_study_gtcars
+
 ### 2018-12-13 23:51:56
 
 1. 完成第一个例子
