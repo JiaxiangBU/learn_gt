@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 ### 2018-12-16 00:28:51
 
 1. finish creating_display_tables.Rmd
+1. add creating_summary_lines
 
 ### 2018-12-15 21:51:07
 

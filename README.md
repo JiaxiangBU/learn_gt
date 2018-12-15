@@ -9,6 +9,7 @@
 ### 2018-12-16 00:28:51
 
 1.  finish creating\_display\_tables.Rmd
+2.  add creating\_summary\_lines
 
 ### 2018-12-15 21:51:07
 
@@ -38,7 +39,8 @@
 list.files()
 #>  [1] "case_study_gtcars.md"        "case_study_gtcars.Rmd"      
 #>  [3] "creating_display_tables.md"  "creating_display_tables.Rmd"
-#>  [5] "gt_rstudio.md"               "gt_rstudio.Rmd"             
-#>  [7] "learn_gt.Rproj"              "LICENSE"                    
-#>  [9] "README.md"                   "README.Rmd"
+#>  [5] "creating_summary_lines.Rmd"  "gt_rstudio.md"              
+#>  [7] "gt_rstudio.Rmd"              "learn_gt.Rproj"             
+#>  [9] "LICENSE"                     "README.md"                  
+#> [11] "README.Rmd"
 ```
