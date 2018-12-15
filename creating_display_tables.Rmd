@@ -1,0 +1,38 @@
+---
+output: github_document
+---
+
+
+https://gt.rstudio.com/articles/creating-display-tables.html
+
+>
+We can think of display tables as output only, where we’d not want to use them as input ever again. Other features include annotations, table element styling, and text transformations that serve to communicate the subject matter more clearly.
+
+这是gt产生的两个目的
+
+1. 不是需要重复输入的
+1. 增加更多解释，方便说明问题
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+# Take the `islands` dataset and use some
+# dplyr functionality to obtain the ten
+# biggest islands in the world
+islands_tbl <- 
+  dplyr::data_frame(
+    name = names(islands),
+    size = islands
+  ) %>%
+  dplyr::arrange(desc(size)) %>%
+  dplyr::slice(1:10)
+
+# Display the table
+library(gt)
+islands_tbl %>% 
+    gt()
+```
+
