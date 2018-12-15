@@ -6,6 +6,10 @@
 1.  <input type="checkbox" id="checkbox1" class="styled">找cheatsheet
     [GitHub Issue](https://github.com/rstudio/gt/issues/105)
 
+### 2018-12-16 00:28:51
+
+1.  finish creating\_display\_tables.Rmd
+
 ### 2018-12-15 21:51:07
 
 1.  add creating\_display\_tables.Rmd
@@ -32,9 +36,9 @@
 
 ``` r
 list.files()
-#> [1] "case_study_gtcars.md"        "case_study_gtcars.Rmd"      
-#> [3] "creating_display_tables.Rmd" "gt_rstudio.md"              
-#> [5] "gt_rstudio.Rmd"              "learn_gt.Rproj"             
-#> [7] "LICENSE"                     "README.md"                  
-#> [9] "README.Rmd"
+#>  [1] "case_study_gtcars.md"        "case_study_gtcars.Rmd"      
+#>  [3] "creating_display_tables.md"  "creating_display_tables.Rmd"
+#>  [5] "gt_rstudio.md"               "gt_rstudio.Rmd"             
+#>  [7] "learn_gt.Rproj"              "LICENSE"                    
+#>  [9] "README.md"                   "README.Rmd"
 ```
