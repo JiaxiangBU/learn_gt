@@ -3,3 +3,5 @@
 1. 如`backports`安装失败，需要手动删除
 1. 重新安装`devtools`和`backports`
 1. 重新安装`gt`
+
+Win7安装会很麻烦和慢，需要安装Rtools
