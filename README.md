@@ -1,50 +1,38 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-### To-do
+# learn\_gt
 
-1.  <input type="checkbox" id="checkbox1" class="styled">找cheatsheet
-    [GitHub Issue](https://github.com/rstudio/gt/issues/105)
+<!-- badges: start -->
 
-### 2018-12-18 11:32:57
+<!-- badges: end -->
 
-1.  add install.Rmd
+The goal of learn\_gt is to …
 
-### 2018-12-16 00:28:51
+<h4 align="center">
 
-1.  finish creating\_display\_tables.Rmd
-2.  add creating\_summary\_lines
+**Code of Conduct**
 
-### 2018-12-15 21:51:07
+</h4>
 
-1.  add creating\_display\_tables.Rmd
+<h6 align="center">
 
-### 2018-12-15 01:29:26
+Please note that the `learn_gt` project is released with a [Contributor
+Code of
+Conduct](https://github.com/JiaxiangBU/learn_gt/blob/master/CODE_OF_CONDUCT.md).<br>By
+contributing to this project, you agree to abide by its terms.
 
-1.  完成 case\_study\_gtcars 了解了 footnote 的处理方式
-2.  尝试做footnote
+</h6>
 
-### 2018-12-15 00:26:13
+<h4 align="center">
 
-1.  增加 case\_study\_gtcars
+**License**
 
-### 2018-12-13 23:51:56
+</h4>
 
-1.  完成第一个例子
+<h6 align="center">
 
-### 2018-12-13 22:20:53
+CC0 © [Jiaxiang
+Li](https://github.com/JiaxiangBU/learn_gt/blob/master/LICENSE.md)
 
-1.  add gt\_rstudio.Rmd
-2.  add r proj and readme
-
-<!-- end list -->
-
-``` r
-list.files()
-#>  [1] "case_study_gtcars.md"        "case_study_gtcars.Rmd"      
-#>  [3] "creating_display_tables.md"  "creating_display_tables.Rmd"
-#>  [5] "creating_summary_lines.Rmd"  "gt_rstudio.md"              
-#>  [7] "gt_rstudio.Rmd"              "install.Rmd"                
-#>  [9] "learn_gt.Rproj"              "LICENSE"                    
-#> [11] "README.md"                   "README.Rmd"
-```
+</h6>

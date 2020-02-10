@@ -4,50 +4,21 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r setup, include = FALSE}
+```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
 )
 ```
 
-### To-do
+# learn_gt
 
-1. <input type="checkbox" id="checkbox1" class="styled">找cheatsheet
-[GitHub Issue](https://github.com/rstudio/gt/issues/105)
+<!-- badges: start -->
+<!-- badges: end -->
 
-### 2018-12-18 11:32:57
+The goal of learn_gt is to ...
 
-1. add install.Rmd
 
-### 2018-12-16 00:28:51
-
-1. finish creating_display_tables.Rmd
-1. add creating_summary_lines
-
-### 2018-12-15 21:51:07
-
-1. add creating_display_tables.Rmd
-
-### 2018-12-15 01:29:26
-
-1. 完成 case_study_gtcars 了解了 footnote 的处理方式
-1. 尝试做footnote
-
-### 2018-12-15 00:26:13
-
-1. 增加 case_study_gtcars
-
-### 2018-12-13 23:51:56
-
-1. 完成第一个例子
-
-### 2018-12-13 22:20:53
-
-1. add gt_rstudio.Rmd
-1. add r proj and readme
-
-```{r}
-list.files()
-```
-
+`r add2pkg::add_disclaimer("Jiaxiang Li")`

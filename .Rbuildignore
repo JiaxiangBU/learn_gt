@@ -1,1 +1,4 @@
 ^README\.Rmd$
+^dev_history_r_proj\.R$
+^LICENSE\.md$
+^Makefile$
