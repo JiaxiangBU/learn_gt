@@ -7,7 +7,10 @@
 
 <!-- badges: end -->
 
-The goal of learn\_gt is to …
+The goal of learn\_gt is to give a tutorial for the R package ‘gt’.
+
+1.  The Rmd documents are saved in the `analysis/`
+2.  The rendered md documents are saved in the `output/`
 
 <h4 align="center">
 
